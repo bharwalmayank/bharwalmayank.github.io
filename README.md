@@ -1,5 +1,5 @@
 # Portfolio Website
-**Live Site:** [mayank-bharwal.github.io](https://mayank-bharwal.github.io)
+**Live Site:** [bharwalmayank.github.io](https://bharwalmayank.github.io)
 
 
 A modern, high-performance portfolio website built with **Next.js 14** and **TypeScript**, featuring smooth animations, AI-powered interactions, and automated deployment.
@@ -47,4 +47,3 @@ npm run build
 - **Environment-based configuration** for analytics
 
 The portfolio demonstrates modern web development practices with a focus on performance, user experience, and maintainable code architecture.
-

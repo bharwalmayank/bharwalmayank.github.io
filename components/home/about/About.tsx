@@ -55,19 +55,19 @@ export const About = () => {
               </p>
               <p className={styles.aboutText}>
                 architected and built{" "}
-                <a target="_blank" href="https://github.com/mayank-bharwal/CSC207-GYMULI-">
+                <a target="_blank" href="https://github.com/bharwalmayank/CSC207-GYMULI-">
                   yapyap
                 </a>, a desktop social media messenger implementing clean architecture and SOLID principles.
               </p>
               <p className={styles.aboutText}>
                 created{" "}
-                <a target="_blank" href="https://github.com/mayank-bharwal/DeepWorkSwitch">
+                <a target="_blank" href="https://github.com/bharwalmayank/DeepWorkSwitch">
                   deepworkswitch
                 </a>, a focus automation tool that helps ADHD students reduce procrastination through automated environment setup.
               </p>
               <p className={styles.aboutText}>
                 developed{" "}
-                <a target="_blank" href="https://github.com/mayank-bharwal/AlgorithmArena">
+                <a target="_blank" href="https://github.com/bharwalmayank/AlgorithmArena">
                   algorithm arena
                 </a>, an automated content generation system using OpenAI API to create educational computer science content.
               </p>
