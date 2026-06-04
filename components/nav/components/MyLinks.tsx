@@ -26,7 +26,7 @@ export const MyLinks = () => {
         transition={{ duration: 0.5, delay: 0.1 }}
       >
         <Link
-          href="https://github.com/mayank-bharwal"
+          href="https://github.com/bharwalmayank"
           target="_blank"
           rel="nofollow"
         >

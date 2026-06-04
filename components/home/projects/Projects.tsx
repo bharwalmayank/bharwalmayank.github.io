@@ -20,7 +20,7 @@ const projects = [
   {
     title: "YapYap Social Messenger",
     imgSrc: "/project-imgs/yapyap.png",
-    code: "https://github.com/mayank-bharwal/CSC207-GYMULI-",
+    code: "https://github.com/bharwalmayank/CSC207-GYMULI-",
     projectLink: "",
     tech: ["Java", "MongoDB", "Clean Architecture", "Design Patterns"],
     description: "A desktop social media messenger built with Clean Architecture and SOLID principles, implementing multiple design patterns.",
@@ -50,7 +50,7 @@ const projects = [
   {
     title: "DeepWorkSwitch",
     imgSrc: "/project-imgs/deepworkswitch.png",
-    code: "https://github.com/mayank-bharwal/DeepWorkSwitch",
+    code: "https://github.com/bharwalmayank/DeepWorkSwitch",
     projectLink: "",
     tech: ["JavaScript", "HTML/CSS", "Shell", "Chrome Extension"],
     description: "A focus automation tool that blocks distractions and sets up productive work environments for ADHD students.",
@@ -81,7 +81,7 @@ const projects = [
   {
     title: "Algorithm Arena",
     imgSrc: "/project-imgs/algorithmarena.png",
-    code: "https://github.com/mayank-bharwal/AlgorithmArena",
+    code: "https://github.com/bharwalmayank/AlgorithmArena",
     projectLink: "",
     tech: ["Python", "OpenAI API", "PIL", "REST API"],
     description: "An automated content generation system that creates and posts educational computer science content.",
@@ -112,7 +112,7 @@ const projects = [
   {
     title: "QuantWave Trading System",
     imgSrc: "/project-imgs/quantwave.png",
-    code: "https://github.com/mayank-bharwal/QuantWave",
+    code: "https://github.com/bharwalmayank/QuantWave",
     projectLink: "",
     tech: ["Python", "Machine Learning", "Flask", "yfinance", "sklearn"],
     description: "Advanced algorithmic trading system using machine learning and GARCH models for real-time market analysis.",
@@ -144,7 +144,7 @@ const projects = [
   {
     title: "Pitchmaster Cricket Selector",
     imgSrc: "/project-imgs/pitchmaster.png",
-    code: "https://github.com/mayank-bharwal/Pitchmaster_",
+    code: "https://github.com/bharwalmayank/Pitchmaster_",
     projectLink: "",
     tech: ["Python", "CustomTkinter", "Machine Learning", "matplotlib", "numpy"],
     description: "AI-powered cricket team selection system using decision trees and performance metrics analysis.",
@@ -174,7 +174,7 @@ const projects = [
   {
     title: "EconoMystic Trading Bot",
     imgSrc: "/project-imgs/economystic.png",
-    code: "https://github.com/mayank-bharwal/EconoMystic",
+    code: "https://github.com/bharwalmayank/EconoMystic",
     projectLink: "",
     tech: ["Python", "GARCH", "pandas", "matplotlib", "financial analysis"],
     description: "Commodity trading bot specializing in Gold Futures using logistic regression and volatility forecasting.",
@@ -204,7 +204,7 @@ const projects = [
   {
     title: "Breaking Bad Platformer Game",
     imgSrc: "/project-imgs/breakingbad.png",
-    code: "https://github.com/mayank-bharwal/Breaking-Bad",
+    code: "https://github.com/bharwalmayank/Breaking-Bad",
     projectLink: "",
     tech: ["Python", "Pygame", "Game Development", "Object-Oriented Programming"],
     description: "A themed platformer game featuring character movement, obstacle avoidance, and crystal collection mechanics.",
