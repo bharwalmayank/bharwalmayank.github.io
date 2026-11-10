@@ -20,36 +20,31 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: 'npm'
-      
+          cache: "npm"
+
       - name: Setup Pages
-        uses: actions/configure-pages@v4
-        with:
-          static_site_generator: next
-      
-      - name: Restore cache
+        uses: actions/configure-pages@v5
+
+      - name: Restore Next.js cache
         uses: actions/cache@v4
         with:
           path: |
-            .next/cache
-            node_modules
-          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx', '**/*.scss') }}
+            ${{ github.workspace }}/.next/cache
+          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx') }}
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-
-      
+
       - name: Install dependencies
         run: npm ci
-      
-      - name: Build with Next.js
+
+      - name: Build Next.js
         run: npm run build
-        env:
-          NODE_ENV: production
-      
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
