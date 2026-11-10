@@ -24,6 +24,8 @@ const SideBarComponent = () => {
     const observer = new IntersectionObserver(callback, options);
 
     sections.forEach((section) => observer.observe(section));
+
+    return () => observer.disconnect();
   }, []);
 
   return (
@@ -36,38 +38,44 @@ const SideBarComponent = () => {
       <span className={styles.logo}>
         1<span>.</span>
       </span>
+
+      {/* 1. About */}
       <motion.a
         initial={{ x: -70 }}
         animate={{ x: 0 }}
         transition={{ duration: 0.5, delay: 0.1 }}
         href="#about"
-        onClick={() => {
-          setSelected("about");
-        }}
+        onClick={() => setSelected("about")}
         className={selected === "about" ? styles.selected : ""}
       >
         about
       </motion.a>
+
+      {/* 2. Experience */}
       <motion.a
         initial={{ x: -70 }}
         animate={{ x: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
-        href="#projects"
-        onClick={() => setSelected("projects")}
-        className={selected === "projects" ? styles.selected : ""}
-      >
-        projects
-      </motion.a>
-      <motion.a
-        initial={{ x: -70 }}
-        animate={{ x: 0 }}
-        transition={{ duration: 0.5, delay: 0.3 }}
         href="#experience"
         onClick={() => setSelected("experience")}
         className={selected === "experience" ? styles.selected : ""}
       >
         exp.
       </motion.a>
+
+      {/* 3. Projects */}
+      <motion.a
+        initial={{ x: -70 }}
+        animate={{ x: 0 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
+        href="#projects"
+        onClick={() => setSelected("projects")}
+        className={selected === "projects" ? styles.selected : ""}
+      >
+        projects
+      </motion.a>
+
+      {/* 4. Contact */}
       <motion.a
         initial={{ x: -70 }}
         animate={{ x: 0 }}
@@ -89,22 +97,22 @@ export const SideBar = withAIEnhancement(SideBarComponent as any, {
     {
       element: "a[href='#about']",
       type: "click",
-      description: "Navigate to the About section"
-    },
-    {
-      element: "a[href='#projects']",
-      type: "click",
-      description: "Navigate to the Projects section"
+      description: "Navigate to the About section",
     },
     {
       element: "a[href='#experience']",
       type: "click",
-      description: "Navigate to the Experience section"
+      description: "Navigate to the Experience section",
+    },
+    {
+      element: "a[href='#projects']",
+      type: "click",
+      description: "Navigate to the Projects section",
     },
     {
       element: "a[href='#contact']",
       type: "click",
-      description: "Navigate to the Contact section"
-    }
-  ]
+      description: "Navigate to the Contact section",
+    },
+  ],
 });
