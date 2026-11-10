@@ -19,8 +19,8 @@ export default function Home() {
           <Heading />
           <Hero />
           <About />
-          <Projects />
           <Experience />
+          <Projects />
           <Contact />
           <div
             style={{
