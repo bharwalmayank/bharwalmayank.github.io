@@ -14,6 +14,30 @@ export const Experience = () => {
 
 const experience = [
   {
+    title: "TD Bank",
+    position: "Software Engineer Intern",
+    time: "May 2026 - Present",
+    location: "Toronto, ON",
+    description: `Collaborated within a 7-engineer team to build a patent-pending autonomous AI platform for enterprise-wide application monitoring, automated testing, incident response, and operational resilience across multiple business units.\n
+    Engineered multi-agent workflows using Python, LangGraph, LangChain, FastAPI, Selenium, and Playwright to continuously validate hundreds of production applications, projecting a 5x reduction in manual testing effort and a 10x improvement in MTTR.\n
+    Architected scalable backend microservices and observability pipelines using Spring Boot, Docker, Kubernetes, Linux, Prometheus, and Grafana, supporting an initiative projected to deliver $25M+ in annual operational savings.\n
+    Awarded 1st Place Trophy in an organization-wide TD Innovation Competition for developing the event's highest-impact technical prototype.`,
+    tech: [
+      "Python",
+      "LangGraph",
+      "LangChain",
+      "FastAPI",
+      "Spring Boot",
+      "Docker",
+      "Kubernetes",
+      "Selenium",
+      "Playwright",
+      "Prometheus",
+      "Grafana",
+      "Linux"
+    ]
+  },
+  {
     title: "University of Toronto's Amateur Rocketry Club",
     position: "Software Engineering Lead",
     time: "August 2025 - Present",
